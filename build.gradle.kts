@@ -16,10 +16,6 @@ application {
     mainClass = "org.delcom.ApplicationKt"
 }
 
-kotlin {
-    jvmToolchain(25)
-}
-
 dependencies {
     implementation("io.insert-koin:koin-ktor:$koin_version")
     implementation("io.insert-koin:koin-logger-slf4j:$koin_version")
