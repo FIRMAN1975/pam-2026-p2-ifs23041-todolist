@@ -19,9 +19,6 @@ application {
 kotlin {
     jvmToolchain(25)
 }
-application {
-    mainClass = "io.ktor.server.netty.EngineMain"
-}
 
 dependencies {
     implementation("io.insert-koin:koin-ktor:$koin_version")
